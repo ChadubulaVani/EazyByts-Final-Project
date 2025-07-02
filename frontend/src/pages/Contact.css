@@ -1,0 +1,86 @@
+.contact-container {
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  min-height: 100vh;
+  transition: background-color 0.4s, color 0.4s;
+}
+
+/* Light theme */
+.contact-container.light {
+  background-color: white;
+  color: #000000;
+}
+
+/* Dark theme */
+.contact-container.dark {
+  background-color: #121212;
+  color: #fff;
+}
+
+.theme-toggle-btn {
+  margin-bottom: 1rem;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background: #ffc107;
+  color: #000;
+  cursor: pointer;
+}
+
+.theme-toggle-btn:hover {
+  background: #e0a800;
+}
+
+.contact-container h2 {
+  margin-bottom: 1.5rem;
+}
+
+.contact-form {
+  background: linear-gradient(to right, rgb(255, 0, 157), rgb(0, 255, 251));
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+  transition: background-color 0.4s;
+}
+
+.contact-container.dark .contact-form {
+  background: linear-gradient(to right, blue, rgb(160, 43, 189));
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.contact-form button {
+  background: #000000;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 28px;
+  font-weight: 900;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #ff0606;
+}
+
+.form-status {
+  margin-top: 1rem;
+  color: rgb(255, 0, 0);
+  font-size: 28px;
+  font-weight: bold;
+}

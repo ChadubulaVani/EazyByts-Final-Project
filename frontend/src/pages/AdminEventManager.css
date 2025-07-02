@@ -1,0 +1,26 @@
+.admin-events-page {
+  background: linear-gradient(
+    to right,
+    white,
+    rgb(78, 78, 219),
+    rgb(248, 132, 152)
+  );
+  font-size: 25px;
+}
+.admin-events-page input {
+  margin: 8px 0;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.event-form {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.event-list table {
+  background: white;
+}

@@ -1,0 +1,9 @@
+.admin-bookings {
+  min-height: 100vh;
+  background: linear-gradient(to right, #6da8e4, #e8f0fe);
+  padding: 2rem;
+}
+
+.table {
+  font-size: 16px;
+}

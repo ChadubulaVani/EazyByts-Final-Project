@@ -1,0 +1,46 @@
+.theme-toggle-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.theme-toggle-btn {
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background: #ffc107;
+  color: #000;
+  cursor: pointer;
+}
+
+/* Light Theme */
+.light-theme {
+  background-color: #f9f9f9;
+  color: #000;
+}
+
+/* Dark Theme */
+.dark-theme {
+  background-color: #121212;
+  color: #fff;
+}
+
+.dark-theme .ticket-card {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+.ticket-card {
+  padding: 2rem;
+  border-radius: 10px;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+}
+
+.ticket-qr {
+  width: 150px;
+  margin-top: 1rem;
+}

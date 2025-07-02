@@ -1,0 +1,270 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.home-container {
+  font-family: "Segoe UI", sans-serif;
+  background: #fdfdfd;
+  color: #333;
+  position: relative;
+}
+
+.hero {
+  text-align: center;
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20240105/pngtree-abstract-gold-glitter-confetti-sparkling-on-black-background-image_13919085.png"); /* Replace with your own URL or local path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 6rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 550px;
+  position: relative;
+  object-fit: cover;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.hero h1 {
+  font-size: 80px;
+}
+.hero p {
+  font-size: 30px;
+}
+
+.hero h1,
+.hero p,
+.hero .cta-btn {
+  position: relative;
+  z-index: 2;
+}
+
+.cta-btn {
+  margin-top: 1rem;
+  padding: 0.8rem 2rem;
+  background: #fff;
+  color: #1976d2;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.about {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.carousel-section {
+  padding: 2rem;
+  background: linear-gradient(to right, rgb(220, 34, 34), rgb(228, 209, 29));
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+}
+
+.carousel-item {
+  min-width: 250px;
+  padding: 1.5rem;
+
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+.carousel-item img {
+  height: 500px;
+  object-fit: contain;
+  width: 100%;
+  background: #000;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.list-group-item {
+  background: linear-gradient(to right, rgb(99, 212, 229), rgb(133, 133, 224));
+  font-size: 23px;
+  color: white;
+  width: 70%;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+.mb-3 {
+  border-radius: 90px;
+}
+
+.event-cards {
+  background: linear-gradient(to right, pink, purple);
+  padding: 2rem;
+  width: 100%;
+}
+
+.card-grid {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.event-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 50%;
+}
+
+.event-card button {
+  margin-top: 1rem;
+  background: #1976d2;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.trending marquee {
+  padding: 1rem;
+  background: linear-gradient(to right, blue, black);
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  background: #e8eaf6;
+  font-size: 25px;
+}
+
+.stat-item h2 {
+  color: #3949ab;
+  font-size: 2rem;
+}
+
+.about {
+  text-align: center;
+  padding: 2rem;
+  background: #f3f3f3;
+}
+
+.organizers {
+  text-align: center;
+  padding: 2rem;
+}
+
+.logo-carousel {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.logo-carousel img {
+  width: 15%;
+  height: auto;
+  border-radius: 50%;
+}
+.testimonial-card {
+  background: #f9f9f9;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.testimonial-card p {
+  font-style: italic;
+  font-size: 25px;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.testimonial-card h4 {
+  font-weight: bold;
+  color: #1976d2;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  z-index: 2;
+}
+
+.last {
+  font-size: 25px;
+}
+
+.event-timer {
+  text-align: center;
+  padding: 2rem;
+  background: #ede7f6;
+}
+
+.newsletter {
+  background: #f1f8e9;
+  padding: 2rem;
+  text-align: center;
+}
+
+.newsletter input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.newsletter button {
+  background: #388e3c;
+  color: white;
+  padding: 0.6rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-info {
+  background: #e0f7fa;
+  text-align: center;
+  padding: 2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #263238;
+  color: white;
+  font-size: 30px;
+}
