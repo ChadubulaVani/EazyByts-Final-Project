@@ -46,7 +46,7 @@ function Dashboard() {
 
     try {
       await axios.delete(
-        `http://localhost:5000/api/bookings/cancel/${bookingId}`,
+        `https://eazybyts-final-project-3.onrender.com/api/bookings/cancel/${bookingId}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

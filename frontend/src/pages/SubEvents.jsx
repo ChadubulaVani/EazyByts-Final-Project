@@ -28,7 +28,7 @@ const SubEvents = () => {
 
     try {
       await axios.post(
-        "http://localhost:5000/api/bookings/book",
+        "https://eazybyts-final-project-3.onrender.com/api/bookings/book",
         {
           eventId: eventId,
           subEvent: subEvent,

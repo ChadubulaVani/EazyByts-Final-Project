@@ -18,7 +18,7 @@ function Register() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:5000/api/users/register", {
+      await axios.post("https://eazybyts-final-project-3.onrender.com/api/users/register", {
         ...formData,
         role: "user",
       });
